@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: dark
 
 plugins:
@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: stars
+  sort_by: pushed
   # sort_by options:
   #   - pushed
   #   - stars
@@ -28,22 +28,10 @@ projects:
     projects:
     - personal-website
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
+  linkedin: www.linkedin.com/in/martin-lee-443b62229
   # youtube: your_username
 
 topics:
@@ -51,7 +39,9 @@ topics:
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
 
-  - name: Web design
+  - name: EcmaScript
+    web_url: https://github.com/topics/es6
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/es6/es6.png
 
   - name: C#
     web_url: https://github.com/topics/csharp
